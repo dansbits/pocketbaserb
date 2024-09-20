@@ -1,0 +1,23 @@
+PATH
+  remote: .
+  specs:
+    pocketbaserb (0.0.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    sorbet (0.4.4250)
+    sorbet-runtime (0.5.11572)
+    tapioca (0.0.1)
+
+PLATFORMS
+  x64-mingw-ucrt
+
+DEPENDENCIES
+  pocketbaserb!
+  sorbet
+  sorbet-runtime
+  tapioca
+
+BUNDLED WITH
+   2.4.10
