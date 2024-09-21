@@ -42,8 +42,7 @@ module Pocketbase
 
       if response.code == "200"
         body = JSON.parse(response.body)
-        puts body["items"][0]
-        # return body['records']
+        return body['items']
       end
     end
   end
